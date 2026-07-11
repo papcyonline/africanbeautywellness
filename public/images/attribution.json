@@ -1,0 +1,27 @@
+[
+  {
+    "file": "images/hero.jpg",
+    "photographer": "Sora Shimazaki",
+    "source": "https://www.pexels.com/photo/charming-black-woman-in-towel-on-head-after-shower-5938540/"
+  },
+  {
+    "file": "images/vision.jpg",
+    "photographer": "Chokniti Khongchum",
+    "source": "https://www.pexels.com/photo/pink-and-blue-plastic-toy-3199033/"
+  },
+  {
+    "file": "images/who.jpg",
+    "photographer": "Atlantic Ambience",
+    "source": "https://www.pexels.com/photo/a-flatlay-of-cosmetics-12955707/"
+  },
+  {
+    "file": "images/why.jpg",
+    "photographer": "Yan Krukau",
+    "source": "https://www.pexels.com/photo/man-in-gray-suit-jacket-sitting-on-a-white-table-7792860/"
+  },
+  {
+    "file": "images/options.jpg",
+    "photographer": "Vie Studio",
+    "source": "https://www.pexels.com/photo/brown-glass-bottles-on-marble-surface-6167866/"
+  }
+]

@@ -1,0 +1,85 @@
+.footer {
+  background: var(--paper);
+  border-top: 1px solid var(--line);
+  padding-block: clamp(56px, 8vw, 88px) 40px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  gap: 48px;
+  flex-wrap: wrap;
+  padding-bottom: 44px;
+}
+
+.brandCol {
+  max-width: 420px;
+}
+
+.brandRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--ink);
+}
+
+.emblem {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  background-color: currentColor;
+  -webkit-mask: url("/emblem.svg") no-repeat center / contain;
+  mask: url("/emblem.svg") no-repeat center / contain;
+}
+
+.mark {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: var(--ink);
+}
+
+.tagline {
+  margin-top: 18px;
+  font-size: 15px;
+  line-height: 1.65;
+  color: var(--muted);
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  font-size: 15px;
+  color: var(--ink-soft);
+}
+
+.links a:hover {
+  color: var(--forest);
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding-top: 26px;
+  font-size: 13px;
+  color: var(--faint);
+}
+
+.legal {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.legal a:hover {
+  color: var(--forest);
+}
+
+.credit {
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 12px;
+}

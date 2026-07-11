@@ -1,0 +1,56 @@
+.wrap {
+  padding-block: clamp(80px, 12vw, 168px) clamp(56px, 8vw, 96px);
+}
+
+.inner {
+  max-width: 760px;
+}
+
+.inner .eyebrow {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: clamp(2.2rem, 5vw, 3.4rem);
+  margin-bottom: 14px;
+}
+
+.updated {
+  font-size: 0.9rem;
+  color: var(--faint);
+  margin-bottom: 44px;
+}
+
+.disclaimer {
+  border-left: 2px solid var(--line-strong);
+  padding: 4px 0 4px 18px;
+  margin-bottom: 44px;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.body h2 {
+  font-size: clamp(1.3rem, 2.2vw, 1.6rem);
+  margin-top: 40px;
+  margin-bottom: 12px;
+}
+
+.body p {
+  color: var(--ink-soft);
+  margin-bottom: 14px;
+}
+
+.body ul {
+  margin: 0 0 14px 0;
+  padding-left: 20px;
+  color: var(--ink-soft);
+}
+
+.body li {
+  margin-bottom: 8px;
+}
+
+.back {
+  margin-top: 48px;
+}
