@@ -1,7 +1,7 @@
 "use server";
 
 import { updateRegistration } from "@/lib/registrations";
-import type { Registration } from "./sample-data";
+import type { Registration } from "@/lib/types";
 
 // Persists an admin edit / approve / reject. No-op (returns false) until
 // Supabase is configured, so the dashboard still updates optimistically.

@@ -26,9 +26,10 @@ export default function PrivacyPage() {
           <h2>1. Who we are</h2>
           <p>
             Africa Beauty &amp; Wellness (&ldquo;we&rdquo;,
-            &ldquo;us&rdquo;) is building a beauty and wellness manufacturing
-            initiative based in Cameroon. This policy explains how we handle
-            information you share with us.
+            &ldquo;us&rdquo;) is building a pan-African beauty and wellness
+            manufacturing initiative, beginning in Cameroon and expanding across
+            Africa. This policy explains how we handle information you share with
+            us.
           </p>
 
           <h2>2. Information we collect</h2>

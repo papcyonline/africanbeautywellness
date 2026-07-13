@@ -1,5 +1,5 @@
 import { getServiceClient } from "./supabase";
-import { SAMPLE, type Registration } from "@/app/admin/sample-data";
+import type { Registration } from "./types";
 
 // Shape of a row in the `registrations` table (snake_case).
 type DbRow = {
@@ -77,17 +77,18 @@ export type NewRegistration = {
   productCatalogueUrl: string | null;
 };
 
-/** All registrations, newest first. Falls back to sample data when unconfigured. */
+/** All registrations, newest first. Returns [] when unconfigured or on error —
+ *  never fake data. */
 export async function getRegistrations(): Promise<Registration[]> {
   const sb = getServiceClient();
-  if (!sb) return SAMPLE;
+  if (!sb) return [];
   const { data, error } = await sb
     .from("registrations")
     .select("*")
     .order("created_at", { ascending: false });
   if (error || !data) {
     console.error("getRegistrations:", error?.message);
-    return SAMPLE;
+    return [];
   }
   return (data as DbRow[]).map(fromDb);
 }

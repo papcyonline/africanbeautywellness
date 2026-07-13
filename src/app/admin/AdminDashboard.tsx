@@ -8,7 +8,7 @@ import {
   DownloadSimple,
   MagnifyingGlass,
 } from "@phosphor-icons/react/dist/ssr";
-import { type Registration, type Status } from "./sample-data";
+import { type Registration, type Status } from "@/lib/types";
 import { updateRegistrationAction } from "./actions";
 import { logoutAction } from "./login/actions";
 import styles from "./admin.module.css";
@@ -154,7 +154,7 @@ export default function AdminDashboard({
             <span className={styles.barNote}>
               {live
                 ? "Live — connected to the database"
-                : "Preview — sample data, not yet connected to the database"}
+                : "Not connected — set the Supabase environment variables"}
             </span>
             <form action={logoutAction}>
               <button type="submit" className={styles.signout}>

@@ -36,8 +36,8 @@ const SPLIT_SIZES = "(max-width: 860px) 100vw, 50vw";
 const VISION_POINTS = [
   {
     n: "01",
-    title: "A factory in Cameroon",
-    body: "A world-class beauty and wellness manufacturing facility, built on African ground.",
+    title: "Factories across Africa",
+    body: "World-class beauty and wellness manufacturing facilities, starting in Cameroon and expanding to Nigeria and Uganda.",
   },
   {
     n: "02",
@@ -84,7 +84,7 @@ const WHY_JOIN = [
   {
     Icon: Buildings,
     title: "Future manufacturing access",
-    body: "Be first in line for manufacturing capacity as the Cameroon factory comes online.",
+    body: "Be first in line for manufacturing capacity as our factories come online across Africa, beginning in Cameroon.",
   },
   {
     Icon: Handshake,
